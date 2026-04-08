@@ -7,8 +7,8 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #4569ad 0%, #5d677cd5 100%);
-    color: #3f70af;
+    background: linear-gradient(135deg, #103b8b 0%, #002470d5 100%);
+    color: #c5c5c5;
     height: 100vh;
     overflow: hidden;
 }
@@ -23,9 +23,9 @@ body {
 /* ========== БОКОВАЯ ПАНЕЛЬ (ИСТОРИЯ) ========== */
 .sidebar {
     width: 280px;
-    background: rgba(15, 23, 42, 0.95);
+    background: rgba(10, 37, 100, 0.95);
     backdrop-filter: blur(10px);
-    border-right: 1px solid rgba(51, 65, 85, 0.5);
+    border-right: 1px solid rgba(0, 88, 211, 0.651);
     display: flex;
     flex-direction: column;
     transition: transform 0.3s ease;
@@ -34,14 +34,14 @@ body {
 
 .sidebar-header {
     padding: 24px 20px;
-    border-bottom: 1px solid rgba(71, 72, 105, 0.4);
+    border-bottom: 1px solid rgba(71, 165, 253, 0.692);
 }
 
 .sidebar-header h2 {
     font-size: 1.5rem;
     display: flex;
     gap: 10px;
-    color: #1af0cc;
+    color: #a3a3a3;
 }
 
 .sidebar-header p {
@@ -56,7 +56,7 @@ body {
 
 .new-chat-btn {
     width: 100%;
-    background: linear-gradient(135deg, #ffffff, #ffffff);
+    background: linear-gradient(135deg, #3f3f3fa4, #aaaaaa);
     border: none;
     color: #0f172a;
     font-weight: bold;
@@ -113,8 +113,8 @@ body {
 }
 
 .chat-item.active {
-    background: rgba(63, 153, 45, 0.603);
-    border-left-color: #1517a1b2;
+    background: rgb(92, 92, 92);
+    border-left-color: #303030;
 }
 
 .chat-title {
@@ -170,9 +170,9 @@ body {
 
 .chat-header {
     padding: 20px 24px;
-    background: rgba(1, 9, 46, 0.8);
+    background: rgba(35, 59, 136, 0.8);
     backdrop-filter: blur(8px);
-    border-bottom: 1px solid rgba(0, 5, 77, 0.534);
+    border-bottom: 1px solid rgba(49, 115, 255, 0.534);
     display: flex;
     align-items: center;
     gap: 16px;
@@ -248,13 +248,13 @@ body {
 }
 
 .message.bot .message-avatar {
-    background: linear-gradient(135deg, #2488fb, #f50bc2);
+    background: linear-gradient(135deg, #002fff, #00eeff);
     color: #0f172a;
 }
 
 .message.user .message-avatar {
-    background: #3b82f6;
-    color: white;
+    background: #2c2c2c;
+    color: rgb(126, 126, 126);
 }
 
 .message-content {
@@ -266,13 +266,13 @@ body {
 }
 
 .message.user .message-content {
-    background: linear-gradient(135deg, #3b82f6, #2563eb);
+    background: linear-gradient(135deg, #292e36, #a2a5aa);
     color: white;
     border-bottom-right-radius: 4px;
 }
 
 .message.bot .message-content {
-    background: rgba(30, 41, 59, 0.9);
+    background: rgba(47, 51, 58, 0.623);
     color: #e2e8f0;
     border-bottom-left-radius: 4px;
 }
@@ -308,8 +308,8 @@ body {
 /* ========== ОБЛАСТЬ ВВОДА ========== */
 .input-area {
     padding: 20px 24px;
-    background: rgba(15, 23, 42, 0.8);
-    border-top: 1px solid rgba(71, 85, 105, 0.4);
+    background: rgba(0, 32, 121, 0.8);
+    border-top: 1px solid rgba(0, 44, 102, 0.4);
 }
 
 .input-wrapper {
@@ -320,8 +320,8 @@ body {
 
 .input-wrapper textarea {
     flex: 1;
-    background: #1e293b;
-    border: 1px solid #334155;
+    background: #004bc4;
+    border: 1px solid #395781;
     border-radius: 24px;
     padding: 12px 18px;
     color: #e2e8f0;
@@ -339,7 +339,7 @@ body {
 }
 
 .send-btn {
-    background: linear-gradient(135deg, #fb2424, #f50bd6);
+    background: linear-gradient(135deg, #8d8d8d, #2c2c2c);
     border: none;
     width: 44px;
     height: 44px;
