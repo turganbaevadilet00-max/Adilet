@@ -292,7 +292,7 @@ body {
 .typing-dot {
     width: 8px;
     height: 8px;
-    background: #fb24d7;
+    background: #3257ff;
     border-radius: 50%;
     animation: typing 1.4s infinite ease-in-out;
 }
@@ -307,7 +307,7 @@ body {
 
 /* ========== ОБЛАСТЬ ВВОДА ========== */
 .input-area {
-    padding: 20px 24px;
+    padding: 60px 60px;
     background: rgba(0, 32, 121, 0.8);
     border-top: 1px solid rgba(0, 44, 102, 0.4);
 }
